@@ -20,7 +20,6 @@ namespace MailRuCloud
 
         public MailRu(IAccount account)
         {
-            account.CheckAuth();
             Account = account;
         }
 
